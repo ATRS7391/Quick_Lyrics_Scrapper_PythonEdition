@@ -192,7 +192,7 @@ Lyrics provided by {ly.source}
     return lyrics
 
 
-print("Please enter your Genius Client Secret. Get it from 'https://genius.com/api-clients/new'. "
+print("Please enter your Genius Client Access Token. Get it from 'https://genius.com/api-clients/new'. "
       "\n(Not mandatory, just increases the chances of getting lyrics of even the least popular songs. )")
 genius_api_key = input("> ")
 
